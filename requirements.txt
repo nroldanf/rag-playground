@@ -1,0 +1,13 @@
+langchain==0.0.310
+mlflow==2.7.1
+chromadb==0.4.13
+pypdf==3.16.2 # pdfloader dep
+openai==0.28.1
+tiktoken==0.5.1 #openai embedding dep
+huggingface-hub==0.17.3
+transformers==4.34.0
+tensorflow-cpu==2.14.0
+sentence-transformers==2.2.2
+accelerate==0.23.0
+#
+pre-commit==3.4.0
