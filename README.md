@@ -15,6 +15,13 @@ Playing with different tools for building RAG systems.
 - Put the documents you want to index inside doc folder.
 - Run `create_index.py`
 
+### Start and mlflow server
+Start the server for working locally:
+```bash
+mlflow server --backend-store-uri <absolute-path-to-tracking-directory> --default-artifact-root tracking/ --host 127.0.0.1:5001
+```
+Open the UI by going to `http://127.0.0.1:5001/`
+
 ### Ask questions
 - Change the query.
 - Run `chatbot.py`
